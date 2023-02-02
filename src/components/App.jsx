@@ -1,16 +1,12 @@
+import Layout from './Layout/Layout';
+import Main from './Main/Main';
+import Sidebar from './Sidebar/Sidebar';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Layout>
+      <Sidebar />
+      <Main />
+    </Layout>
   );
 };
