@@ -17,10 +17,10 @@ const Customers = () => {
         </form>
       </div>
       <CustomersTable />
-      <div className={s.footerWrapper}>
+      {/* <div className={s.footerWrapper}>
         <p>Showing data 1 to 8 of 256K entries</p>
         <Pagination />
-      </div>
+      </div> */}
     </section>
   );
 };

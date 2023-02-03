@@ -56,10 +56,71 @@
   background-color: #eeeeee;
 }
 
+/*=================================================================*/
+
+.mobileGridTable {
+  display: none;
+  width: 100%;
+  text-align: left;
+  color: #b5b7c0;
+  /* border-collapse: collapse; */
+  /* border: 0; */
+}
+
+.mobileGridTable th {
+  padding: 20px 10px;
+  /* width: 100%; */
+}
+
+.mobileGridTable tbody td {
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 10px;
+  width: 100%;
+}
+.mobileGridTable thead {
+  background-color: #f9fbff;
+}
+.mobileGridTable thead th {
+  text-align: left;
+  border-bottom: 6px solid #eeeeee;
+}
+
+.mobileGridTable tbody td:last-child,
+.mobileGridTable thead th:last-child {
+  text-align: right;
+  color: #000;
+}
+
+/* .mobileGridTable thead::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: -40px;
+  height: 1px;
+  border: none;
+  width: 40px;
+  background-color: #eeeeee;
+}
+
+.mobileGridTable thead::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  right: -40px;
+  height: 1px;
+  border: none;
+  width: 40px;
+  background-color: #eeeeee;
+} */
+
+/*========================================================================*/
+
 .statusActive,
 .statusInactive {
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   width: 80px;
   padding: 3px 0;
@@ -74,4 +135,19 @@
   background: #ffc5c5;
   border: 1px solid #df0404;
   color: #df0404;
+}
+
+@media screen and (max-width: 768px) {
+  .greyGridTable {
+    display: none;
+  }
+
+  .mobileGridTable {
+    display: block;
+  }
+
+  .statusActive,
+  .statusInactive {
+    text-align: center;
+  }
 }

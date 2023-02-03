@@ -5,7 +5,7 @@ import Sidebar from './Sidebar/Sidebar';
 export const App = () => {
   return (
     <Layout>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Main />
     </Layout>
   );
