@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
   --background: #ffffff;
@@ -9,19 +9,15 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
   color: var(--primary-title);
   background-color: var(--background);
-  font-family: 'Inter', 'Montserrat', 'Open Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 a {

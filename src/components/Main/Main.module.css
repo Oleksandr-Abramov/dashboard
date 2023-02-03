@@ -1,5 +1,10 @@
 .mainContainer {
   height: 100%;
   width: 968px;
-  background-color: rgb(192, 240, 182);
+  padding-top: 41px;
+}
+
+.mainContainer > p {
+  font-size: 24px;
+  line-height: 36px;
 }
