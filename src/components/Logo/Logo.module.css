@@ -1,4 +1,4 @@
-.container {
+.logoWrapper {
   display: flex;
   align-items: center;
 }
@@ -17,4 +17,30 @@
   line-height: 15px;
   letter-spacing: -0.01em;
   color: #838383;
+}
+
+.burger {
+  display: none;
+  width: 54px;
+  height: 54px;
+}
+.nav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .burger {
+    display: block;
+  }
+
+  .container {
+    justify-content: space-between;
+  }
+  .nav {
+    display: block;
+  }
 }

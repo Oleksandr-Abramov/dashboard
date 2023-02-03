@@ -8,6 +8,7 @@ import { ReactComponent as Income } from './income.svg';
 import { ReactComponent as LogoImg } from './logo.svg';
 import { ReactComponent as Promote } from './promote.svg';
 import { ReactComponent as Search } from './search.svg';
+import { ReactComponent as BurgerImg } from './burger-btn.svg';
 
 export {
   Dashboard,
@@ -20,4 +21,5 @@ export {
   LogoImg,
   Promote,
   Search,
+  BurgerImg,
 };

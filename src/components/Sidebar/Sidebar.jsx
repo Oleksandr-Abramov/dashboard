@@ -8,7 +8,9 @@ const Sidebar = () => {
     <div className={s.container}>
       <div>
         <Logo />
-        <Navigation />
+        <div className={s.nav}>
+          <Navigation />
+        </div>
       </div>
       <Avatar />
     </div>
