@@ -82,4 +82,9 @@
   .form {
     width: 100%;
   }
+
+  .footerWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
