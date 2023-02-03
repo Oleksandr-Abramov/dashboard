@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.textWrapper {
+  margin-left: 12px;
+}
+
+.post {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}

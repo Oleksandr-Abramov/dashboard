@@ -1,5 +1,11 @@
-.navContainer {
-  height: 100vh;
+.container {
+  box-sizing: border-box;
+  height: 1198px;
   width: 306px;
-  background-color: rgb(193, 98, 98);
+  background-color: #fff;
+  padding: 35px 28px 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
 }

@@ -1,0 +1,76 @@
+.container {
+  margin-top: 53px;
+}
+
+.iconDashboard,
+.iconArr,
+.iconIncome {
+  fill: transparent;
+  stroke: #9197b3;
+}
+
+.iconProduct,
+.itemHelp {
+  fill: #9197b3;
+}
+
+.iconPromote {
+  fill: #9197b3;
+  stroke: transparent;
+}
+
+.list > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 11px 8px 11px 11px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.list > li:hover {
+  background-color: #5932ea;
+}
+
+.list > li:hover > .text,
+.list > li:hover > .iconArr {
+  color: #fff;
+  stroke: #fff;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  color: #9197b3;
+}
+
+.text > p {
+  margin-left: 14px;
+}
+
+.itemDashboard:hover > .text > .iconDashboard,
+.itemIncome:hover > .text > .iconIncome {
+  stroke: #fff;
+}
+
+.itemProduct:hover > .text > .iconProduct,
+.itemHelp:hover > .text > .iconHelp {
+  fill: #fff;
+  stroke: transparent;
+}
+
+.itemCustomers {
+  background-color: #5932ea;
+}
+
+.itemCustomers > .text {
+  color: #fff;
+}
+
+.itemCustomers .iconArr {
+  stroke: #fff;
+}
+
+.itemPromote:hover > .text > .iconPromote {
+  fill: #fff;
+}

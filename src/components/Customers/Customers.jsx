@@ -1,6 +1,7 @@
 import CustomersTable from 'components/CustomersTable/CustomersTable';
 import Pagination from 'components/Pagination/Pagination';
 import s from './Customers.module.css';
+import { Search } from '../../images';
 
 const Customers = () => {
   return (
@@ -11,6 +12,7 @@ const Customers = () => {
           <p>Active Members</p>
         </div>
         <form className={s.form}>
+          <Search className={s.formImg} />
           <input type="text" placeholder="Search" />
         </form>
       </div>
